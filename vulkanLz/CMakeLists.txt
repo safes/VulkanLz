@@ -34,6 +34,7 @@ function(buildExample EXAMPLE_NAME)
 	endif(WIN32)
 
 	set_target_properties(${EXAMPLE_NAME} PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/data)
+	set_property(TARGET ${EXAMPLE_NAME} PROPERTY VS_DEBUGGER_ENVIRONMENT "PATH=${CMAKE_SOURCE_DIR}/libs")
 	if(OpenMP_CXX_FOUND)
 		target_compile_options(${EXAMPLE_NAME} PRIVATE ${OpenMP_CXX_FLAGS})
 		IF(${EXAMPLE_NAME} STREQUAL "texture3d")
