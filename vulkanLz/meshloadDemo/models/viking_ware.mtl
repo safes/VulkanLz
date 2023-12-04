@@ -1,0 +1,45 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl 07_-_Default
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.356863 0.474510 0.407843
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl 21_-_Default
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.545098 0.149020 0.149020
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl Material_#12
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\misxz\\Downloads\\viking-weaver\\source\\1DAE03_Moldovan_Alexia_GameArtExam\\Textures\\Moldovan_Alexia_GameArtExam_Building_Tex.jpg
+
+newmtl Material_#66
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\misxz\\Downloads\\viking-weaver\\source\\1DAE03_Moldovan_Alexia_GameArtExam\\Textures\\Moldovan_Alexia_GameArtExam_Environment_Tex.jpg
+map_d C:\\Users\\misxz\\Downloads\\viking-weaver\\source\\1DAE03_Moldovan_Alexia_GameArtExam\\Textures\\Moldovan_Alexia_GameArtExam_Environment_Opacity.jpg
